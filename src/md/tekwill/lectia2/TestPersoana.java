@@ -5,6 +5,6 @@ public class TestPersoana {
         Persoana alex = new Persoana( "Smith", "Alexandru", 22, "masculin", 80);
         alex.afiseazaPersoana();
         alex.seteazaGenPersoana("masculin");
-
+        System.out.println(alex.getGen());
     }
 }

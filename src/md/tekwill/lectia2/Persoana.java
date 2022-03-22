@@ -25,4 +25,8 @@ public class Persoana {
 
     }
 
+    public String getGen(){
+        return this.gen;
+    }
+
 }
