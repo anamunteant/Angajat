@@ -17,8 +17,8 @@ public class Main {
         int numarDePersoane = cititor.nextInt();
         System.out.println("Soldul curent impartit la " + numarDePersoane + "persoane= " + contul001.imparteSoldulLaNPersoane(numarDePersoane));
 
-        contul001.transferCatreOPersoanaAiCareiDateSuntIntrunFisierAruncare("C:\\Users\\Admin\\Desktop\\TAC\\proiecte\\test\\angajat\\src\\md\\tekwill\\lectia2\\Persoana.java");
+        contul001.transferCatreOPersoanaAiCareiDateSuntIntrunFisierAruncare("src\\md\\tekwill\\lectia2\\Persoana.java");
 
-        contul001.transferCatreOPersoanaAiCareiDateSuntIntrunFisierTratare("C:\\Users\\Admin\\Desktop\\TAC\\proiecte\\test\\angajat\\src\\md\\tekwill\\lectia2\\Persoana.java");
+        contul001.transferCatreOPersoanaAiCareiDateSuntIntrunFisierTratare("src\\md\\tekwill\\lectia2\\Persoana.java");
     }
 }
